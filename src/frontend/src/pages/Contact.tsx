@@ -32,7 +32,7 @@ export default function Contact() {
         className="space-y-4"
       >
         <a
-          href="mailto:truecolorcarefund@gmail.com"
+          href="mailto:Truecolorscarefund@gmail.com"
           className="flex items-center gap-5 p-6 rounded-2xl border border-gray-100 hover:border-trans-blue hover:shadow-soft transition-all group"
           data-ocid="contact.link"
         >
@@ -47,7 +47,7 @@ export default function Contact() {
               Email Us
             </p>
             <p className="font-semibold text-gray-800 group-hover:text-trans-blue-dark transition-colors break-all">
-              truecolorcarefund@gmail.com
+              Truecolorscarefund@gmail.com
             </p>
             <p className="text-sm text-gray-400 mt-0.5">
               We'll respond as soon as we can

@@ -68,11 +68,11 @@ export default function Footer({ navigate }: FooterProps) {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:truecolorcarefund@gmail.com"
+                  href="mailto:Truecolorscarefund@gmail.com"
                   className="flex items-center gap-2 text-sm text-gray-500 hover:text-trans-pink-dark transition-colors"
                 >
                   <Mail className="w-4 h-4 flex-shrink-0" />
-                  truecolorcarefund@gmail.com
+                  Truecolorscarefund@gmail.com
                 </a>
               </li>
               <li>

@@ -94,11 +94,11 @@ export default function Guidelines() {
         <p className="text-gray-600 leading-relaxed">
           Questions? Reach out at{" "}
           <a
-            href="mailto:truecolorcarefund@gmail.com"
+            href="mailto:Truecolorscarefund@gmail.com"
             className="font-semibold"
             style={{ color: "#3ba8d4" }}
           >
-            truecolorcarefund@gmail.com
+            Truecolorscarefund@gmail.com
           </a>
         </p>
       </motion.div>

@@ -101,7 +101,7 @@ export default function GetHelp({ navigate: _navigate }: GetHelpProps) {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <a
-            href="mailto:truecolorcarefund@gmail.com"
+            href="mailto:Truecolorscarefund@gmail.com"
             className="flex items-center gap-4 p-5 rounded-2xl border border-gray-100 hover:border-trans-blue hover:shadow-soft transition-all group"
             data-ocid="contact.link"
           >
@@ -116,7 +116,7 @@ export default function GetHelp({ navigate: _navigate }: GetHelpProps) {
                 Email
               </p>
               <p className="text-sm font-semibold text-gray-800 group-hover:text-trans-blue-dark transition-colors break-all">
-                truecolorcarefund@gmail.com
+                Truecolorscarefund@gmail.com
               </p>
             </div>
           </a>
