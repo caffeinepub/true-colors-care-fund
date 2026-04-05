@@ -69,11 +69,111 @@ export default function GetHelp({ navigate: _navigate }: GetHelpProps) {
         </div>
       </motion.div>
 
+      {/* Verification Required */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.25 }}
+        className="mb-10 rounded-3xl overflow-hidden"
+        style={{ border: "1.5px solid #e8d5f5" }}
+      >
+        {/* Section header */}
+        <div
+          className="px-6 py-5"
+          style={{
+            background: "linear-gradient(135deg, #f3e8ff 0%, #fce8ed 100%)",
+          }}
+        >
+          <div className="flex items-center gap-2 mb-1">
+            <span className="text-xl">💜</span>
+            <h2 className="font-display font-bold text-lg sm:text-xl text-gray-900">
+              Verification Required for Support
+            </h2>
+          </div>
+          <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+            To ensure fairness and transparency for everyone, we require proof
+            before funds can be distributed.
+          </p>
+        </div>
+
+        <div className="px-6 py-5 space-y-6" style={{ background: "#fdfaff" }}>
+          {/* HRT Request */}
+          <div>
+            <p className="font-semibold text-gray-800 mb-3 text-sm sm:text-base">
+              If you are requesting help for HRT, please provide:
+            </p>
+            <ul className="space-y-2">
+              <li className="flex items-start gap-2 text-gray-700 text-sm sm:text-base">
+                <span
+                  className="mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0"
+                  style={{ background: "#C084FC" }}
+                />
+                A photo or screenshot of your HRT prescription
+              </li>
+              <li className="flex items-start gap-2 text-gray-700 text-sm sm:text-base">
+                <span
+                  className="mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0"
+                  style={{ background: "#C084FC" }}
+                />
+                A photo or screenshot showing the cost of your prescription
+              </li>
+            </ul>
+            <p className="mt-3 text-gray-500 text-sm leading-relaxed italic">
+              You may cover or block out any personal information you are not
+              comfortable sharing. We only need to verify the medication and
+              cost.
+            </p>
+          </div>
+
+          <hr style={{ borderColor: "#ede9f5" }} />
+
+          {/* After support */}
+          <div>
+            <p className="font-semibold text-gray-800 mb-3 text-sm sm:text-base">
+              If support is provided, you will also be required to submit:
+            </p>
+            <ul className="space-y-2">
+              <li className="flex items-start gap-2 text-gray-700 text-sm sm:text-base">
+                <span
+                  className="mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0"
+                  style={{ background: "#F9A8D4" }}
+                />
+                A photo of your prescription
+              </li>
+              <li className="flex items-start gap-2 text-gray-700 text-sm sm:text-base">
+                <span
+                  className="mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0"
+                  style={{ background: "#F9A8D4" }}
+                />
+                A receipt confirming the funds were used toward your HRT
+              </li>
+            </ul>
+          </div>
+
+          <hr style={{ borderColor: "#ede9f5" }} />
+
+          {/* Why section */}
+          <div>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-lg">🤍</span>
+              <h3 className="font-display font-bold text-base sm:text-lg text-gray-900">
+                Why This Is Required
+              </h3>
+            </div>
+            <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+              True Colors Care Fund runs entirely on donations. These steps help
+              ensure that support goes directly to those who need it and allows
+              us to continue helping others in a fair and responsible way.
+            </p>
+          </div>
+        </div>
+      </motion.div>
+
       {/* Supportive message */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.3 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
         className="mb-10 rounded-3xl p-6 sm:p-8 text-center"
         style={{
           background: "linear-gradient(135deg, #dff4fd 0%, #fce8ed 100%)",
@@ -94,7 +194,7 @@ export default function GetHelp({ navigate: _navigate }: GetHelpProps) {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.45 }}
+        transition={{ duration: 0.6, delay: 0.55 }}
       >
         <h2 className="font-display font-bold text-xl text-gray-900 mb-5">
           Reach out directly
